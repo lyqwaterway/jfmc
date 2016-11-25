@@ -1,0 +1,12 @@
+proxies {
+  proxy('proxy_key') {
+    host 'proxy host' // mandatory
+    port 8888 // mandatory
+    username 'username'
+    password 'password'
+    defaultProxy false
+    ntHost 'NT Host'
+    ntDomain 'NT Domain'
+    redirectedToHosts 'host1, host2, host3'
+  }
+}
